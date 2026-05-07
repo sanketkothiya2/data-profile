@@ -109,26 +109,77 @@ export const projects = [
     title: "AI Benchmarking System with Predictive Analytics",
     organization: "Jaguar Land Rover",
     description:
-      "Developed and led an analytics reporting system to evaluate AI model performance using Power BI and Tableau dashboards, enabling clear KPI tracking for stakeholders.",
-    details:
-      "Conducted advanced data analysis using SQL and Excel to identify performance trends and optimization opportunities. Collaborated with cross-functional teams to gather business requirements and translate complex technical outputs into actionable insights. Implemented data quality monitoring and validation processes.",
-    metrics: [
-      { label: "Efficiency Improvement", value: "15%" },
+      "Developed and led an analytics reporting system to evaluate AI model performance using Streamlit and Python visualization dashboards, enabling clear KPI tracking for stakeholders.",
+    highlights: [
+      "Advanced data analysis using Pandas, Matplotlib, and Seaborn for performance trends",
+      "Cross-functional collaboration to translate technical outputs into actionable insights",
+      "Data quality monitoring and validation processes for reporting accuracy",
     ],
-    techStack: ["Power BI", "Tableau", "SQL", "Excel", "Python"],
+    metrics: [
+      { label: "Efficiency Gain", value: "15%" },
+      { label: "Model Accuracy", value: "92.5%" },
+      { label: "GPUs Analyzed", value: "2,108" },
+    ],
+    techStack: ["Python", "Streamlit", "Pandas", "Matplotlib", "Seaborn"],
     icon: "🤖",
     image: "/images/jlr-dashboard.png",
     liveUrl: "https://jlr-ai-benchmark-prediction-dashboard.onrender.com/",
+  },
+  {
+    title: "Superstore Sales Analytics Dashboard",
+    organization: "Personal Project",
+    description:
+      "Designed and built a production-grade Excel analytics workbook on the Global Superstore dataset (9,994 orders, 2014–2017) covering sales, profit, customer, and regional performance.",
+    highlights: [
+      "KPI Dashboard — 8 dynamic metric cards tracking Revenue ($2.3M), Profit Margin (12.5%), Orders & Customers",
+      "Pivot Analysis — 4 cross-tabulations: Year×Category, Region×Segment, Sub-Category Scorecard, Discount Impact",
+      "6 embedded visualizations: clustered bar, pie, line trend, and horizontal bar charts",
+      "Formula Engine — SUMIFS, AVERAGEIF, COUNTIF, nested IF, RANK, LARGE, and % of Total",
+      "Top & Bottom Analysis — Top 10 customers/states, loss-making sub-categories",
+    ],
+    metrics: [
+      { label: "Revenue Tracked", value: "$2.3M" },
+      { label: "Profit Margin", value: "12.5%" },
+      { label: "Orders Analyzed", value: "9,994" },
+      { label: "Customers", value: "793" },
+    ],
+    techStack: ["Excel", "VBA", "Python", "Pandas", "Data Visualization"],
+    icon: "📊",
+    images: ["/images/superstore-kpi.png", "/images/superstore-charts.png"],
+  },
+  {
+    title: "Healthcare Analytics Dashboard",
+    organization: "Personal Project",
+    description:
+      "Designed and developed a 5-page interactive Power BI dashboard using a real-world healthcare dataset of 10,000+ patient records to answer executive, clinical, and financial questions.",
+    highlights: [
+      "Data Preparation & Modeling — Cleaned data in Power Query, built a proper Date Table, and designed a clean star schema",
+      "DAX Measures — Wrote 13 explicit measures from scratch organized into display folders for Key KPIs, Admissions, Clinical, Time Intelligence, and Financial",
+      "Report Design — Built 5 pages (Executive Summary, Demographics, Admissions, Financial, Clinical Outcomes) with 14 cross-filtering slicers",
+      "Business Insights — Discovered high Avg Length of Stay (15.5 days), volume-driven billing (~$25K avg), and a 33.6% abnormal test rate",
+    ],
+    metrics: [
+      { label: "Patient Records", value: "10K+" },
+      { label: "DAX Measures", value: "13" },
+      { label: "Dashboard Pages", value: "5" },
+    ],
+    techStack: ["Power BI", "Power Query (M)", "DAX", "Data Modeling", "Healthcare Analytics"],
+    icon: "🏥",
+    images: ["/images/pbi-1.png", "/images/pbi-2.png"],
   },
   {
     title: "Automated Credit Approval System (CrediWise)",
     organization: "University of Windsor / TD Bank",
     description:
       "Performed end-to-end business analysis for credit decisioning workflows by gathering stakeholder requirements and defining measurable KPIs for model development.",
-    details:
-      "Analyzed financial datasets using Python, SQL, and advanced Excel techniques to identify approval trends and risk factors. Worked in an Agile (Scrum) environment, conducting A/B testing. Implemented data validation and root cause analysis processes.",
+    highlights: [
+      "Analyzed financial datasets using Python, SQL, and advanced Excel techniques",
+      "Identified approval trends and risk factors for credit decisioning",
+      "Conducted A/B testing in Agile (Scrum) environment",
+      "Implemented data validation and root cause analysis processes",
+    ],
     metrics: [
-      { label: "Form Completion Rate", value: "+28%" },
+      { label: "Form Completion", value: "+28%" },
     ],
     techStack: ["Python", "SQL", "Excel", "A/B Testing", "Agile/Scrum"],
     icon: "💳",
